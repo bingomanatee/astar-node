@@ -1,0 +1,37 @@
+{
+   "name": "astar-node",
+   "version": "1.0.0",
+   "main": "index",
+   "description": "A pathfinder module - nodification of http://www.matthewtrost.org/projects/astar/#",
+   "keywords": [
+       "pathfinder",
+       "game",
+   ],
+   "maintainers": [
+       {
+           "name": "Dave Edelhart",
+           "email": "bingomanatee@me.com",
+           "web": "http://www.wonderlandlabs.com",
+           "twitter": "dave.edelhart"
+       } 
+   ],
+   "licenses": [
+       {
+           "type": "MIT"
+       } 
+   ],
+   "repositories": [
+       {
+           "type": "git",
+           "url": "https://github.com/bingomanatee/astar-node" 
+       } 
+   ],
+   "directories": {
+   },
+   "engines": {
+       "node": ">=0.4.3"
+   },
+   "scripts": {
+       "install": "node-waf configure build"
+   }
+}
